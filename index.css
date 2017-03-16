@@ -1,0 +1,56 @@
+div {
+    box-sizing: border-box;
+}
+
+#header, #navigation-bar, #content-wrapper, #sidebar, #footer, #post-title-box {
+    border: 2px solid red;
+}
+
+#header {
+    text-align: center;
+}
+
+.sidebar-post-image {
+    max-width: 100px;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#navigation-bar, #sidebar {
+    display: block;
+}
+
+#content-wrapper {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#post-image {
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#post-title-box {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#navigation-bar {
+    float: left;
+    width: 15%;
+}
+
+#sidebar {
+    float: right;
+    width: 15%;
+}
+
+#footer {
+    text-align: center;
+}
